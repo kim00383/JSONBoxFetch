@@ -1,0 +1,53 @@
+*{
+    padding:1.1rem;
+}
+p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: crimson;
+    text-align: center;
+    transition:transform 2s, border 1s;
+    display: flex;
+    justify-content:center;
+    
+}
+
+p:hover{
+    transform:scale(1.05);
+    border:5px solid #baec2f;
+}
+#output{
+    border:1px solid black;
+}
+p.pActHeader{
+    background-color: #868383;
+    font:bold 25px serif;
+
+}
+p.pAct:nth-child(even){
+    background-color: #e1e1e1;
+   
+}
+p.pAct:nth-child(odd){
+    background-color: rgb(170, 247, 177);
+}
+p.pActor:nth-child(even){
+    background-color: #f5d0d0;
+}
+p.pActor:nth-child(odd){
+    background-color: rgb(170, 209, 241);
+}
+p span:nth-child(odd){
+    color:black;
+    font:bold 18px serif;
+    flex: 1;
+    border-right:5px solid #a394ce;
+    
+}
+
+p span:nth-child(even){
+    font:italic  26px serif;
+    text-decoration: underline;
+    flex: 3;
+    text-align: left;
+}
